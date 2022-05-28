@@ -66,6 +66,8 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
+  gem 'respec', '~> 0.9.1'
+  gem 'guard', '~> 2.18'
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
